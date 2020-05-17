@@ -19,7 +19,21 @@ Files Needing Modification for Magic
         - Yugioh-prices.png
         - yugioh-wikia.png
     - Scripts
-        - 
+        - src
+            - collection
+                -  card-version.js
+            - model
+                - card-monster-type.js
+                - card-version.js
+                - card.js
+                - spell-trap-property.js
+            - view
+                - page
+                    - browse.js
+                    - collection.js
+                    - import-rarities.js
+            - initialize.js
+            
     - Templates
         - Card.html
         - Deck-list-item.html
