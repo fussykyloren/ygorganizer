@@ -1,0 +1,91 @@
+Files Needing Modification for Magic
+- Conf
+    - prod.example
+        - supervisord.conf
+- querystring_parser
+    - builder.py
+    - parser.py
+    - test.py
+- Static
+    - Images
+        - Originals
+            - favicon.png
+            - Logo.png
+        - Bitcoin-qr.png
+        - favicon.png
+        - header.png
+        - logo.png
+        - monovertex.png
+        - Yugioh-prices.png
+        - yugioh-wikia.png
+    - Scripts
+        - 
+    - Templates
+        - Card.html
+        - Deck-list-item.html
+- Templates
+    - Pages
+        - Import
+            - rarities.html
+            - upload.html
+        - About.html
+        - deck_list.html
+        - donations_content.html
+        - index.html
+    - Registration
+        - Activate.html
+        - activation_email.html
+        - activation_email.txt
+        - password_reset_email.html
+        - password_reset_subject
+    - base.html
+    - page_base.html
+- ygo_api
+    - views.py
+- ygo_cards
+    - Migrations
+        - 0001_initial.py
+        - 0002_remove_cardset_identifier.py
+        - 0003_auto_20141001_0937.py
+        - 0004_auto_20150123_2107.py
+        - 0005_deck_deckcard_usercard.py
+        - 0006_auto_20150125_2329.py
+        - 0007_remove_deckcard_count.py
+        - 0008_auto_20150324_0753.py
+        - 0009_auto_20150424_1955.py
+        - 0010_auto_20150428_1918.py
+        - 0011_auto_20150428_1928.py
+        - 0012_auto_20150428_2003.py
+        - 0013_auto_20150428_2041.py
+        - 0014_usercardversionstatistics.py
+        - 0015_cardset_with_language_code.py
+        - 0016_cardversion_dirty.py
+    - Tasks
+        - cards.py
+        - sets.py
+    - admin.py
+    - models.py
+    - serializers.py
+- ygo_core
+    - Management
+        - Commands
+            - fetchcards.py
+            - fetchsets.py
+    - mixins.py
+    - serializers.py
+    - urls.py
+    - views.py
+- ygo_import
+    - Migrations
+        - 0001_initial.py
+        - 0002_auto_20150605_1933.py
+    - forms.py
+    - models.py
+    - tasks.py
+    - views.py
+- ygo_variabls
+    - Migrations
+        - 0001_initial.py
+        - 0002_variable_description.py
+- package.json
+- readme.txt
